@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  match: one
+  match_results: MyString
+  won_by: MyString
+  man_of_the_match: MyString
+  highest_run_scorrer: MyString
+  most_wicket_taker: MyString
+
+two:
+  match: two
+  match_results: MyString
+  won_by: MyString
+  man_of_the_match: MyString
+  highest_run_scorrer: MyString
+  most_wicket_taker: MyString
