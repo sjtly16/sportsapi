@@ -2,6 +2,7 @@ class Api::V1::MatchesController < ApplicationController
     def index
         """Upcoming Match List API"""
         render json: {
+            status: "success",
             data: Match.where('date > ?', Date.today), 
             message: "Upcoming Match List",
         }
@@ -18,6 +19,7 @@ class Api::V1::MatchesController < ApplicationController
         away_team = Team.find(away_team_id)
 
         render json: {
+            status: "success",
             data: {
                     match: match, 
                     host_team: host_team, 
