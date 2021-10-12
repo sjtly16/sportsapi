@@ -9,7 +9,7 @@ class Api::V1::TeamsController < ApplicationController
             status: "success",
             data: {
                 team: team, 
-                team_stat: team_stat
+                team_stat: team_stats
             },
             message: "Team Stats"
         }
